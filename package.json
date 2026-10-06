@@ -1,0 +1,17 @@
+{
+  "name": "nagarik-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Nagarik — simple services, smarter citizen experience. Static, multilingual civic-services website with a serverless contact API.",
+  "homepage": "https://nagarik.example",
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "npx --yes serve@14 . -l 3000",
+    "deploy": "vercel --prod",
+    "check:links": "npx --yes linkinator@6 http://localhost:3000 --recurse --skip \"^(?!http://localhost)\""
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

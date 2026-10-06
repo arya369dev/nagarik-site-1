@@ -1,0 +1,71 @@
+# Nagarik
+
+> Nagarik is an independent civic-technology platform for India. It helps people find government services, understand required documents, apply on the official portal, report local civic issues with photo and location, and track progress. Nagarik is not a government body and does not process government applications or fees.
+
+Last updated: 2026-10-06
+
+## Key pages
+- [Services directory](https://nagarik.example/services)
+- [Report a civic issue](https://nagarik.example/report)
+- [Track an application or report](https://nagarik.example/track)
+- [Emergency helplines](https://nagarik.example/emergency)
+- [Help & FAQ](https://nagarik.example/help)
+- [About and editorial policy](https://nagarik.example/about)
+- [Contact](https://nagarik.example/contact)
+
+## Services
+- [Passport (fresh or re-issue)](https://nagarik.example/services#passport): Apply online on Passport Seva, pay the fee, then visit a Passport Seva Kendra for biometrics and document checks. Police verification follows. Official portal: https://www.passportindia.gov.in/
+- [Aadhaar address update](https://nagarik.example/services#aadhaar-update): Update your address online on myAadhaar with a valid proof of address, or visit an Aadhaar Seva Kendra for biometric or mobile-number changes. Official portal: https://myaadhaar.uidai.gov.in/
+- [PAN card (new or e-PAN)](https://nagarik.example/services#pan): Get an instant e-PAN using Aadhaar-based e-KYC on the Income Tax e-Filing portal, or apply for a physical PAN through the authorised PAN service agencies. Official portal: https://www.incometax.gov.in/
+- [Voter ID registration (Form 6)](https://nagarik.example/services#voter-id): Citizens aged 18 or more register as a new voter with Form 6 on the Voters' Service Portal. A Booth Level Officer may verify your details. Official portal: https://voters.eci.gov.in/
+- [Birth certificate](https://nagarik.example/services#birth-cert): Births are registered with the local registrar, usually by the hospital or the family. Registration within 21 days is free under the Registration of Births and Deaths Act. Official portal: https://crsorgi.gov.in/
+- [Income certificate](https://nagarik.example/services#income-cert): Income certificates are issued by state governments, usually through the state e-District or citizen-service portal or a Common Service Centre. Official portal: https://services.india.gov.in/
+- [Caste certificate](https://nagarik.example/services#caste-cert): Caste certificates are issued by state authorities. Requirements and documents differ by state and category. Official portal: https://services.india.gov.in/
+- [Learner's & driving licence](https://nagarik.example/services#driving-licence): Apply for a learner's licence on Sarathi, pass the learner's test, and after the waiting period book a driving test at your RTO for the permanent licence. Official portal: https://sarathi.parivahan.gov.in/
+- [Vehicle registration services](https://nagarik.example/services#vehicle): Transfer of ownership, address change on RC, duplicate RC and other vehicle services are handled on Vahan for most states. Official portal: https://vahan.parivahan.gov.in/
+- [Ration card](https://nagarik.example/services#ration-card): Ration cards are issued by state food departments. Under One Nation One Ration Card, eligible beneficiaries can collect entitlements from any fair price shop. Official portal: https://nfsa.gov.in/
+- [Ayushman Bharat PM-JAY card](https://nagarik.example/services#ayushman): Check eligibility and generate the Ayushman card for cashless treatment at empanelled hospitals, if you are an eligible beneficiary. Official portal: https://beneficiary.nha.gov.in/
+- [Old-age, widow & disability pension](https://nagarik.example/services#pension): The National Social Assistance Programme supports eligible elderly, widowed and disabled people. Applications usually go through the state or local body. Official portal: https://nsap.nic.in/
+- [Property tax payment](https://nagarik.example/services#property-tax): Property tax is paid to your city's municipal body, usually online with your property ID. Official portal: https://services.india.gov.in/
+- [Water connection or complaint](https://nagarik.example/services#water): New water connections are applied for with your local body. Supply problems can be reported to the utility, or on Nagarik as a civic issue. Official portal: https://services.india.gov.in/
+- [RTI application](https://nagarik.example/services#rti): Ask a central public authority for information under the RTI Act, 2005. State authorities have their own RTI portals or offline process. Official portal: https://rtionline.gov.in/
+- [Public grievance (CPGRAMS)](https://nagarik.example/services#cpgrams): Lodge a grievance about a central government ministry or department and track it with a registration number. Official portal: https://pgportal.gov.in/
+- [Cyber crime & online fraud report](https://nagarik.example/services#cybercrime): Report online financial fraud immediately on helpline 1930 and file the complaint on the National Cyber Crime Reporting Portal. Official portal: https://cybercrime.gov.in/
+- [DigiLocker documents](https://nagarik.example/services#digilocker): DigiLocker holds digitally issued documents such as driving licence, vehicle RC and many mark sheets, fetched directly from issuers. Official portal: https://www.digilocker.gov.in/
+
+## FAQ
+### What is Nagarik?
+Nagarik is an independent digital platform that helps people in India find government services, understand the documents needed, apply on the official portal, report civic issues in their area and track progress in one place. It is not a government website.
+
+### How does Nagarik work?
+Search for what you need in plain language. Nagarik explains the service, lists the usual documents, links you to the official portal to apply, and lets you save reference numbers so you can track every application and civic report from your dashboard.
+
+### How can I apply for a service?
+Open the service page, check the document checklist, then press Apply on official portal. Nagarik prepares a checklist and takes you to the correct government portal, where the application is submitted and the fee, if any, is paid.
+
+### How do I report a civic issue?
+Go to Report an issue, choose a category such as pothole or garbage, add a photo, confirm the location on the map and submit. You receive a tracking ID like NGK-24817 and updates as the issue moves from New to Resolved.
+
+### How can I track my application?
+Enter your Nagarik tracking ID or a saved official reference number on the Track page. Civic reports show live status. For government applications, Nagarik shows the steps and links to the official tracking page.
+
+### What services are available through Nagarik?
+Nagarik covers identity documents such as passport, Aadhaar update, PAN and voter ID; certificates such as birth, income and caste; transport services; welfare schemes; municipal services; and complaints such as RTI, CPGRAMS and cyber fraud reporting.
+
+### Is Nagarik a government website?
+No. Nagarik is an independent civic-technology platform. It links to official government portals for applications and payments and clearly marks which information comes from official sources.
+
+### Is Nagarik free to use?
+Yes. Searching, reporting civic issues and tracking are free. Government fees, where they apply, are paid directly on the official portal.
+
+### Which languages does Nagarik support?
+Nagarik is designed for 13 languages: English, Hindi, Marathi, Tamil, Telugu, Bengali, Kannada, Gujarati, Malayalam, Punjabi, Odia, Urdu and Assamese. This preview has English and Hindi navigation.
+
+### How does Nagarik protect my data?
+Data is encrypted in transit and at rest, documents are stored only with your consent, and you can download or delete your data at any time from the Privacy & Security centre.
+
+### Is the Nagarik AI assistant's advice official?
+No. Answers from the assistant are labelled AI guidance. Information confirmed from a government source is labelled Official source with a link. Always confirm requirements on the official portal before applying.
+
+### What should I do in an emergency?
+Call 112, India's single emergency number, for police, fire or ambulance. Nagarik's Emergency page lists other national helplines such as 1930 for cyber fraud and 1098 for children.

@@ -1,0 +1,45 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    { "source": "/home", "destination": "/", "permanent": true },
+    { "source": "/index", "destination": "/", "permanent": true },
+    { "source": "/faq", "destination": "/help", "permanent": true },
+    { "source": "/sos", "destination": "/emergency", "permanent": true }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "Content-Security-Policy", "value": "default-src 'self'; script-src 'self' https://cdnjs.cloudflare.com 'sha256-5kqHu+KNReLwVuQFeyXIUadaqNf8sOq6WvcdBG/Avx0=' 'sha256-8Sz3B21CTVJdOJ/GsM3puyDp4gOlbf2bTWCdajhGUYE=' 'sha256-F7FEDH6gayktmETZUnuP0UltNdR7TPV5s26ZfI16VXA=' 'sha256-G/tshuuOZfbig11kHgUtEk8Jr/d+isvkBRWJdMlp4Yg=' 'sha256-IPcpUBEKXvVHMA8FwEReHwu1t4LobrcC7YaerH+2Ox4=' 'sha256-PkXRzeoasp2jDECyhzBe1Y1RBHfkGvKRIaBihDihy0Q=' 'sha256-SEpY61LeNZ/FfvGOa0VSJmh5jBZoa6HF8VzVS5dEASY=' 'sha256-Z272hWf0bPCsdne7yA4Tw/9WaDHb48M6hb6ge4JtAXE=' 'sha256-k7bXCo+A+JeQyVEg+3a9rPVyeoIPK6QFAkwzrWvdxEs=' 'sha256-quTyT7rxWA+55gWFuksrJrxBqMUb4R1myHvLnR5jYqA=' 'sha256-rTMtpj3Tucr8k5GyfMHOvlZLt4y8j3LX9gV9LIqCprk='; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; object-src 'none'; upgrade-insecure-requests" },
+        { "key": "Strict-Transport-Security", "value": "max-age=63072000; includeSubDomains; preload" },
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "X-Frame-Options", "value": "DENY" },
+        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
+        { "key": "Permissions-Policy", "value": "camera=(), microphone=(self), geolocation=(self), payment=(), usb=(), interest-cohort=()" },
+        { "key": "Cross-Origin-Opener-Policy", "value": "same-origin" }
+      ]
+    },
+    {
+      "source": "/(.*).woff2",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }]
+    },
+    {
+      "source": "/(style.css|main.js|content.js|hero3d.js|logo.svg|og-image.png)",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=604800, stale-while-revalidate=86400" }]
+    },
+    {
+      "source": "/(favicon.ico|favicon.svg|apple-touch-icon.png|android-chrome-192.png|android-chrome-512.png|site.webmanifest)",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=604800" }]
+    },
+    {
+      "source": "/posts.json",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=3600, stale-while-revalidate=86400" }, { "key": "Access-Control-Allow-Origin", "value": "*" }]
+    },
+    {
+      "source": "/(dashboard|admin)",
+      "headers": [{ "key": "X-Robots-Tag", "value": "noindex, nofollow" }, { "key": "Cache-Control", "value": "no-store" }]
+    }
+  ]
+}

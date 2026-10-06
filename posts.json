@@ -1,0 +1,72 @@
+{
+  "updated": "2026-10-06",
+  "note": "Help-centre guides written by the Nagarik team. Each guide links to the page that does the task.",
+  "posts": [
+    {
+      "slug": "how-to-report-a-civic-issue",
+      "title": "How to report a civic issue in under a minute",
+      "summary": "Pick a category, add a photo, confirm the pin and submit. You get an NGK tracking ID straight away.",
+      "url": "/report",
+      "category": "Civic issues",
+      "published": "2026-09-22",
+      "updated": "2026-10-06",
+      "author": "Nagarik help team",
+      "readingMinutes": 2
+    },
+    {
+      "slug": "documents-for-passport",
+      "title": "Documents usually needed for a passport",
+      "summary": "Proof of address and date of birth, plus your old passport for a re-issue. Always confirm on Passport Seva before you apply.",
+      "url": "/services#passport",
+      "category": "Identity",
+      "published": "2026-09-15",
+      "updated": "2026-10-06",
+      "author": "Nagarik help team",
+      "readingMinutes": 3
+    },
+    {
+      "slug": "update-aadhaar-address-online",
+      "title": "Updating your Aadhaar address online",
+      "summary": "Log in to myAadhaar with OTP, upload a valid proof of address and keep your Update Request Number to track it.",
+      "url": "/services#aadhaar-update",
+      "category": "Identity",
+      "published": "2026-09-10",
+      "updated": "2026-10-06",
+      "author": "Nagarik help team",
+      "readingMinutes": 3
+    },
+    {
+      "slug": "track-your-application",
+      "title": "Tracking applications and reports in one place",
+      "summary": "Use your NGK ID for civic reports, and save official reference numbers so Nagarik can remind you to check their status.",
+      "url": "/track",
+      "category": "Tracking",
+      "published": "2026-09-05",
+      "updated": "2026-10-06",
+      "author": "Nagarik help team",
+      "readingMinutes": 2
+    },
+    {
+      "slug": "online-fraud-what-to-do",
+      "title": "Lost money to online fraud? Act in the first hours",
+      "summary": "Call 1930, file a complaint on cybercrime.gov.in and inform your bank. Speed improves the chance of recovery.",
+      "url": "/services#cybercrime",
+      "category": "Safety",
+      "published": "2026-08-28",
+      "updated": "2026-10-06",
+      "author": "Nagarik help team",
+      "readingMinutes": 3
+    },
+    {
+      "slug": "download-or-delete-your-data",
+      "title": "How to download or delete your Nagarik data",
+      "summary": "Open the Privacy & Security centre to export everything we hold or permanently delete your account.",
+      "url": "/privacy",
+      "category": "Privacy",
+      "published": "2026-08-20",
+      "updated": "2026-10-06",
+      "author": "Nagarik help team",
+      "readingMinutes": 1
+    }
+  ]
+}

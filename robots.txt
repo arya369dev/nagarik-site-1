@@ -1,0 +1,27 @@
+# Nagarik robots.txt
+User-agent: *
+Allow: /
+Disallow: /dashboard
+Disallow: /admin
+Disallow: /api/
+
+# AI answer engines may read public help and service pages
+User-agent: GPTBot
+Allow: /
+Disallow: /dashboard
+Disallow: /admin
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+Disallow: /dashboard
+Disallow: /admin
+
+User-agent: PerplexityBot
+Allow: /
+Disallow: /dashboard
+Disallow: /admin
+
+Sitemap: https://nagarik.example/sitemap.xml
